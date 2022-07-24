@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Save Course</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial;
+      font-size: 15px;
+    }
+
+    .container {
+      position: relative;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .container img {
+      vertical-align: middle;
+    }
+
+    .container .content {
+      position: absolute;
+      bottom: 0;
+      background: rgb(0, 0, 0);
+      /* Fallback color */
+      background: rgba(0, 0, 0, 0.5);
+      /* Black background with 0.5 opacity */
+      color: #f1f1f1;
+      width: 100%;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body><br>
+  <div class="container">
+    <img src="image/study2.jpg" alt="study2.jpg" style="width:100%;">
+    <div class="justify-content">
+
+      <fieldset class="border p-2">
+        <legend class="w-auto">
+          <h2>Save Course</h2>
+        </legend>
+        <form>
+          <label> Code: </label>
+          <input type="text" name="code" size="15" /> <br> <br>
+          <label> Name: </label>
+          <input type="text" name="name" size="15" /> <br> <br>
+          <label> Credit: </label>
+          <input type="text" name="credit" size="15" /> <br> <br>
+
+          <label>
+            Department :
+          </label>
+          <select>
+            <option value="Department">Department</option>
+            <option value="CSE">CSE</option>
+            <option value="BBA">BBA</option>
+            <option value="PHARMACY">PHARMACY</option>
+            <option value="English">English</option>
+            <option value="LAW">LAW</option>
+            <option value="MBA">MBA</option>
+          </select>
+          <br>
+          <br>
+          <label>
+            Semester :
+          </label>
+          <select>
+            <option value="Semester">Semester</option>
+            <option value="1st">1st</option>
+            <option value="2nd">2nd</option>
+            <option value="3rd">3rd</option>
+            <option value="4th">4th</option>
+            <option value="5th">5th</option>
+            <option value="6th">6th</option>
+            <option value="7th">7th</option>
+            <option value="7th">7th</option>
+            <option value="8th">8th</option>
+          </select>
+          <br>
+          <br>
+
+          Description :
+          <br>
+          <textarea cols="80" rows="3" value="description">
+</textarea>
+          <br> <br>
+          <input type="button" value="Save" />
+        </form>
+      </fieldset>
+</body>
+
+</html>

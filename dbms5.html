@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Save Teacher</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial;
+      font-size: 15px;
+    }
+
+    .container {
+      position: relative;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .container img {
+      vertical-align: middle;
+    }
+
+    .container .content {
+      position: absolute;
+      bottom: 0;
+      background: rgb(0, 0, 0);
+      /* Fallback color */
+      background: rgba(0, 0, 0, 0.5);
+      /* Black background with 0.5 opacity */
+      color: #f1f1f1;
+      width: 100%;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img src="image/study3.jpg" alt="study3.jpg" style="width:100%;">
+    <div class="justify-content">
+      <fieldset class="border p-2">
+        <legend class="w-auto">
+          <h2>Save Teacher Information</h2>
+        </legend>
+        <form>
+          <label> First Name </label>
+          <input type="text" name="firstname" size="15" /> <br><br>
+          <label> Last name: </label>
+          <input type="text" name="lastname" size="15" /> <br><br>
+          <label>
+            Email:
+            <input type="email" id="email" name="email" /> <br>
+            <br>
+            Address :
+            <br>
+            <textarea cols="80" rows="4" value="address">
+</textarea>
+            <br> <br>
+            <label>
+              Department :
+            </label>
+            <select>
+              <option value="Department">Department</option>
+              <option value="CSE">CSE</option>
+              <option value="BBA">BBA</option>
+              <option value="PHARMACY">PHARMACY</option>
+              <option value="English">English</option>
+              <option value="LAW">LAW</option>
+              <option value="MBA">MBA</option>
+            </select>
+            <br>
+            <label><br>
+              Gender :
+            </label><br>
+            <input type="radio" name="male" /> Male
+            <input type="radio" name="female" /> Female
+            <br>
+            <label><br>
+              Phone :
+            </label>
+            <input type="text" name="country code" value="+88" size="2" />
+            <input type="text" name="phone" size="10" /> <br> <br>
+
+            <label>
+              Designation:
+            </label>
+            <select>
+              <option value="lecturer">Lecturer</option>
+            </select> <br>
+            <br>
+            Credit to be taken :
+            <input type="" id="Credit to be taken" name="Credit to be taken"><br><br>
+            <input type="button" value="Save" />
+        </form>
+      </fieldset>
+</body>
+
+</html>
